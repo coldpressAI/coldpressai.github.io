@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Data Bar | the coldpress blog</title>
+    <link href="https://blog.coldpress.ai/feed.xml" rel="self" />
+    <link href="https://blog.coldpress.ai" />
+    <updated>2023-01-02T17:38:17+05:30</updated>
+    <author>
+        <name>Abhishek Choudhary</name>
+    </author>
+    <id>https://blog.coldpress.ai</id>
+
+    <entry>
+        <title>Placeholder 2</title>
+        <author>
+            <name>Abhishek Choudhary</name>
+        </author>
+        <link href="https://blog.coldpress.ai/placeholder-2.html"/>
+        <id>https://blog.coldpress.ai/placeholder-2.html</id>
+
+        <updated>2023-01-02T17:38:17+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.coldpress.ai/media/posts/2/1923419018-vector.jpg" alt="" />
+                    This is another test
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://blog.coldpress.ai/media/posts/2/1923419018-vector.jpg" alt="" />
+                <p>This is another test</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Placeholder</title>
+        <author>
+            <name>Abhishek Choudhary</name>
+        </author>
+        <link href="https://blog.coldpress.ai/test-post.html"/>
+        <id>https://blog.coldpress.ai/test-post.html</id>
+
+        <updated>2023-01-02T17:32:41+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.coldpress.ai/media/posts/1/IMG_8345.jpg" alt="" />
+                    This is a test
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://blog.coldpress.ai/media/posts/1/IMG_8345.jpg" alt="" />
+                <p>This is a test</p>
+            ]]>
+        </content>
+    </entry>
+</feed>

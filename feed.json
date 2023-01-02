@@ -1,0 +1,43 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Data Bar | the coldpress blog",
+    "description": "",
+    "home_page_url": "https://blog.coldpress.ai",
+    "feed_url": "https://blog.coldpress.ai/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Abhishek Choudhary"
+    },
+    "items": [
+        {
+            "id": "https://blog.coldpress.ai/placeholder-2.html",
+            "url": "https://blog.coldpress.ai/placeholder-2.html",
+            "title": "Placeholder 2",
+            "summary": "This is another test",
+            "content_html": "<p>This is another test</p>",
+            "image": "https://blog.coldpress.ai/media/posts/2/1923419018-vector.jpg",
+            "author": {
+                "name": "Abhishek Choudhary"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-01-02T17:38:17+05:30",
+            "date_modified": "2023-01-02T17:38:17+05:30"
+        },
+        {
+            "id": "https://blog.coldpress.ai/test-post.html",
+            "url": "https://blog.coldpress.ai/test-post.html",
+            "title": "Placeholder",
+            "summary": "This is a test",
+            "content_html": "<p>This is a test</p>",
+            "image": "https://blog.coldpress.ai/media/posts/1/IMG_8345.jpg",
+            "author": {
+                "name": "Abhishek Choudhary"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-12-27T13:03:38+05:30",
+            "date_modified": "2023-01-02T17:32:41+05:30"
+        }
+    ]
+}

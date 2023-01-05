@@ -1,10 +1,11 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Data Bar | the coldpress blog",
+    "title": "data bar | the coldpress blog",
     "description": "",
     "home_page_url": "https://blog.coldpress.ai",
     "feed_url": "https://blog.coldpress.ai/feed.json",
     "user_comment": "",
+    "icon": "https://blog.coldpress.ai/media/website/Untitled-1000-x-500-px-1500-x-300-px1.png",
     "author": {
         "name": "Abhishek Choudhary"
     },

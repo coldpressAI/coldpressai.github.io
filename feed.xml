@@ -3,55 +3,129 @@
     <title>data bar | the coldpress blog</title>
     <link href="https://blog.coldpress.ai/feed.xml" rel="self" />
     <link href="https://blog.coldpress.ai" />
-    <updated>2023-01-02T17:38:17+05:30</updated>
+    <updated>2023-02-13T15:39:33+05:30</updated>
     <author>
         <name>Abhishek Choudhary</name>
     </author>
     <id>https://blog.coldpress.ai</id>
 
     <entry>
-        <title>Placeholder 2</title>
+        <title>A very serious guide for decoding model accuracy, precision, recall, and F1</title>
         <author>
             <name>Abhishek Choudhary</name>
         </author>
-        <link href="https://blog.coldpress.ai/placeholder-2.html"/>
-        <id>https://blog.coldpress.ai/placeholder-2.html</id>
-        <media:content url="https://blog.coldpress.ai/media/posts/2/1923419018-vector.jpg" medium="image" />
+        <link href="https://blog.coldpress.ai/a-very-serious-guide-for-decoding-model-accuracy-precision-recall-and-f1.html"/>
+        <id>https://blog.coldpress.ai/a-very-serious-guide-for-decoding-model-accuracy-precision-recall-and-f1.html</id>
+        <media:content url="https://blog.coldpress.ai/media/posts/2/blog2-final1.png" medium="image" />
+            <category term="model-recall"/>
+            <category term="model-precision"/>
+            <category term="model-performance"/>
+            <category term="model-f1"/>
+            <category term="model-accuracy"/>
+            <category term="metrics-and-measurement"/>
+            <category term="machine-learning"/>
+            <category term="f-score"/>
+            <category term="data-imbalance"/>
+            <category term="data-engineering"/>
+            <category term="coldpress-ai"/>
+            <category term="artificial-intelligence"/>
 
-        <updated>2023-01-02T17:38:17+05:30</updated>
+        <updated>2023-02-13T15:39:33+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.coldpress.ai/media/posts/2/1923419018-vector.jpg" alt="" />
-                    This is another test
+                        <img src="https://blog.coldpress.ai/media/posts/2/blog2-final1.png" alt="" />
+                    Okay I lied, this is only a mildly serious guide. With that disclosure out of the way and our conscience&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://blog.coldpress.ai/media/posts/2/1923419018-vector.jpg" class="type:primaryImage" alt="" /></p>
-                <p>This is another test</p>
+                    <p><img src="https://blog.coldpress.ai/media/posts/2/blog2-final1.png" class="type:primaryImage" alt="" /></p>
+                <div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p class="dropcap">Okay I lied, this is only a mildly serious guide. With that disclosure out of the way and our conscience being clear, let's dive into the age-old question for the umpteenth time: accuracy, precision, recall, or F1? Which one should you choose to track your AI model? The answer is, frustratingly and always, that it depends. But don't worry, we're here to guide you through the jungle of metrics and help you make the right choice.</p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 16.5478%;"><strong>Metric</strong></td>
+<td style="width: 41.2242%;"><strong>What it is</strong></td>
+<td style="width: 42.228%;"><strong>What it measures</strong></td>
+</tr>
+<tr>
+<td style="width: 16.5478%;"><strong>Accuracy</strong></td>
+<td style="width: 41.2242%;">Number of correct predictions divided by total number of predictions</td>
+<td style="width: 42.228%;">How often the model is correct</td>
+</tr>
+<tr>
+<td style="width: 16.5478%;"><strong>Precision</strong></td>
+<td style="width: 41.2242%;">Number of true positive predictions divided by the sum of true positive and false positive predictions</td>
+<td style="width: 42.228%;">Proportion of positive predictions that are actually correct</td>
+</tr>
+<tr>
+<td style="width: 16.5478%;"><strong>Recall</strong></td>
+<td style="width: 41.2242%;">Number of true positive predictions divided by the sum of true positive and false negative predictions</td>
+<td style="width: 42.228%;">Proportion of actual positive cases that were correctly predicted</td>
+</tr>
+<tr>
+<td style="width: 16.5478%;"><strong>F1</strong></td>
+<td style="width: 41.2242%;">Harmonic mean of precision and recall</td>
+<td style="width: 42.228%;">Composite metric, it is a balance of precision and recall</td>
+</tr>
+</tbody>
+</table>
+<p>Now, why is picking your north star metric not a simple and obvious choice? Why must the diplomatic "it depends" raise its head again here? As with most things, the pesky issue is the abstract best that is market dynamics. Let's see:</p>
+<p>Sometimes, accuracy is a great metric to use. For example, if you're building a model to predict whether it's going to rain tomorrow, accuracy is probably the way to go. If the model predicts rain and it doesn't rain, or if it predicts no rain and it does rain, the consequences are not severe. However, if you're building a model to predict whether a patient has a certain disease, the consequences of false positive or false negative predictions can be much more severe. In this case, you may want to use precision, recall, or F1 to ensure that your model is not only correct, but also not making false positive or false negative predictions.</p>
+<p>Ooh, ooh, look, another intricacy is rearing it's head. It's amazing to see it in the wild. Nature, man. This one called "imbalanced datasets". If your dataset is imbalanced, accuracy can be a misleading metric. For example, if you have a dataset of 99% negative cases and 1% positive cases, a model that always predicts negative will have an accuracy of 99%. But clearly, this is not a useful model. In these cases, precision, recall, or F1 may be a better choice. That said, the smart choice in case you find yourself wrangling with a dataset clearly imbalanced to that degree, you're better served throwing it in a trash can and <a href="https://coldpress.ai/premium?ref=blog-a-very-serious-guide-for-decoding-model-accuracy-precision-recall-and-f1" target="_blank" rel="noopener">hitting us up at Coldpress AI to find something better</a>.</p>
+<p>So, what's the verdict? Well, it's like I said at the beginning: it depends. But, in general, if you're building a model for a low-stakes application, accuracy is probably fine. If you're building a model for a high-stakes application, you may want to use precision, recall, or F1. And if your dataset is imbalanced, be cautious about relying on anything.</p>
+<p>One more interesting thing is the issue of stratification in F1, down to the fact that models typically solve multiple use cases which can have differeing levels of business importance, so something that has a 0.95 f-score can still wildly vary between use cases in terms of end-user satisfaction. This stratification is a topic of intense research that we're both doing and keeping tabs on. <a href="https://coldpress.ai/horizon?ref=blog-a-very-serious-guide-for-decoding-model-accuracy-precision-recall-and-f1" target="_blank" rel="noopener">Sign up here to stay in the loop</a>!</p>
+</div>
+</div>
+</div>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>Placeholder</title>
+        <title>Hello world - introducing Coldpress AI!</title>
         <author>
             <name>Abhishek Choudhary</name>
         </author>
-        <link href="https://blog.coldpress.ai/test-post.html"/>
-        <id>https://blog.coldpress.ai/test-post.html</id>
-        <media:content url="https://blog.coldpress.ai/media/posts/1/IMG_8345.jpg" medium="image" />
+        <link href="https://blog.coldpress.ai/hello-world-introducing-coldpress-ai.html"/>
+        <id>https://blog.coldpress.ai/hello-world-introducing-coldpress-ai.html</id>
+        <media:content url="https://blog.coldpress.ai/media/posts/1/blog1-final1.png" medium="image" />
+            <category term="synthetic-data"/>
+            <category term="premium-datasets"/>
+            <category term="open-datasets"/>
+            <category term="machine-learning"/>
+            <category term="data-engineering"/>
+            <category term="data-augmentation"/>
+            <category term="computer-vision"/>
+            <category term="coldpress-ai"/>
+            <category term="announcements"/>
 
-        <updated>2023-01-02T17:32:41+05:30</updated>
+        <updated>2023-02-13T15:37:28+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://blog.coldpress.ai/media/posts/1/IMG_8345.jpg" alt="" />
-                    This is a test
+                        <img src="https://blog.coldpress.ai/media/posts/1/blog1-final1.png" alt="" />
+                    Friends, Data Scientists, countrymen (and countrywomen), lend me your ears. I come to introduce you to Coldpress AI - a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://blog.coldpress.ai/media/posts/1/IMG_8345.jpg" class="type:primaryImage" alt="" /></p>
-                <p>This is a test</p>
+                    <p><img src="https://blog.coldpress.ai/media/posts/1/blog1-final1.png" class="type:primaryImage" alt="" /></p>
+                <div class="flex flex-grow flex-col gap-3">
+<div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
+<div class="markdown prose w-full break-words dark:prose-invert light">
+<p class="dropcap">Friends, Data Scientists, countrymen (and countrywomen), lend me your ears. I come to introduce you to Coldpress AI - a Machine Learning supermarket. We started this venture to ease the pain of AI development experience, believing that AI can be as fun to develop as it is to use.</p>
+<p>Let me take you through our establishment. On your left, you'll see the first aisle: our open dataset platform. We're building the largest catalog of open datasets in the world, so that it's not a wild goosechase when you want to experiment with a new idea and you spend weeks and months looking for what's available in the fantastic but fragmented frontiers of the open source community. <a href="https://coldpress.ai/explore?ref=blog-hello-world-introducing-coldpress-ai" target="_blank" rel="noopener">Check it out here</a> - it's a work in progress, and it will only get better with time!</p>
+<p>If you look to your right, you'll find our crown jewel - premium datasets from the foremost producers in the market. The relationship between model accuracy and data quality is well known to the point of being canonical, and yet premium datasets are some of the least "discoverable" parts of AI development. No more - with Coldpress datasets, you get an easily navigable catalog of datasets relevant to you, available instantly with your resolution and refresh rates of choice. And in the interest of making your experience superlative, we have an extra goodie for you - your own data assistant. If you don't find what you're looking for, you simply tell us and we do the search and negotiation for you, and make it available to you through the reliable consistency our our API. Once you start getting your data from Coldpress, you will never need anything else. If this sounds like your cup of your-beverage-of-choice, you can <a href="https://coldpress.ai/premium?ref=blog-hello-world-introducing-coldpress-ai">find it here</a>.</p>
+<p>The next section is our super-secret R&amp;D lab, developing super-secret ways to produce synthetic data. You can interpolate your existing dataset, extrapolate from a few samples, and soon, even make something from nothing. One day, we think data production can be as simple as making an image on Midjourney or a blog post on ChatGPT. It's not there today, but we're making progress. Our first foray is our data augmentation API - the first rung of data engineering. To get started, you'll find features like flipping images horizontally, vertically, or both; rotating images; adjusting the brightness or contrast; and even adding random noise. The idea is that these transformed images will provide additional examples for the algorithm to learn from, training it on a much larger and more diverse dataset than you ever could before. You can <a href="https://coldpress.ai/generate?ref=blog-hello-world-introducing-coldpress-ai" target="_blank" rel="noopener noreferrer">get going with it right now - right here</a>.</p>
+<p>The last section is our even-more-secret R&amp;D lab, developing even-more-secret ways to make your life better. We keep an ear to the ground, and an eye to the horizon, looking out not just for your data needs today, but thinking about your data needs tomorrow. We collaborate with the brightest minds in academia, becoming the bridge through which today's research can help shape tomorrow's reality. We're currently focussing on building adverserial training datasets for common use-cases. Our upcoming projects include helping businesses tie the relation between measure model performance and business performance more reliably. You can <a href="https://coldpress.ai/horizon?ref=blog-hello-world-introducing-coldpress-ai" target="_blank" rel="noopener">sign up for updates</a> here to stay tuned - this will be an interesting ride!</p>
+<p>In short, we believe this is the end of your need to repeatedly scour the internet for datasets. No more worrying about the quality of what you've found, and no more pulling your hair out trying to augment it. Coldpress AI has got you covered. Imagine all the time and energy you'll save by not having to do any of those things - you might be able to add a siesta to your daily routine.<em> <span class="ILfuVd" lang="en"><span class="hgKElc">¡</span></span>Que bien!</em></p>
+<p>Now you might be looking at all of this and be asking yourself, "when exactly will I use all this?" And I'm glad you asked, because I'm happy to say that we have very clearly defined our use cases. Imagine this: bad guys have broken into your home and are holding your beloved pet housefly hostage. Their ask for ransom? 10 GBs of photos of spiders in low lighting conditions. Until yesterday, this would've landed you in quite a pickle. But today, you can just come to Coldpress AI, and we will help you out. And maybe you can tell the bad guys about us, so they don't have to resort to nefarious acts to fulfil their data needs.</p>
+<p>So there you have it, folks. Coldpress AI, the future of data. Don't wait, <a href="https://coldpress.ai/login/?ref=blog-hello-world-introducing-coldpress-ai" target="_blank" rel="noopener">sign up today</a> and see for yourself!</p>
+</div>
+</div>
+</div>
             ]]>
         </content>
     </entry>

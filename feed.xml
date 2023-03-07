@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>data bar // the coldpress blog</title>
+    <title>data bar | the coldpress blog</title>
     <link href="https://blog.coldpress.ai/feed.xml" rel="self" />
     <link href="https://blog.coldpress.ai" />
-    <updated>2023-02-13T21:06:52+05:30</updated>
+    <updated>2023-02-15T14:10:05+05:30</updated>
     <author>
         <name>Abhishek Choudhary</name>
     </author>
@@ -30,7 +30,7 @@
             <category term="coldpress-ai"/>
             <category term="artificial-intelligence"/>
 
-        <updated>2023-02-13T21:06:52+05:30</updated>
+        <updated>2023-02-15T14:10:05+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.coldpress.ai/media/posts/2/blog2-final1.png" alt="robots running in a colosseum" />
@@ -43,7 +43,7 @@
                 <div class="flex flex-grow flex-col gap-3">
 <div class="min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap">
 <div class="markdown prose w-full break-words dark:prose-invert light">
-<p class="dropcap">Okay I lied, this is only a mildly serious guide. With that disclosure out of the way and our conscience being clear, let's dive into the age-old question for the umpteenth time: accuracy, precision, recall, or F1? Which one should you choose to track your AI model? The answer is, frustratingly and always, that it depends. But don't worry, we're here to guide you through the jungle of metrics and help you make the right choice.</p>
+<p class="dropcap">Okay I lied, this is only a mildly serious guide. With that disclosure out of the way and our conscience being clear, let's dive into the age-old question for the umpteenth time: accuracy, precision, recall, or F1? Which one should you choose to track the performance of your AI model? The answer is, frustratingly and always, that it depends. But don't worry, we're here to guide you through the jungle of metrics and help you make the right choice.</p>
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>

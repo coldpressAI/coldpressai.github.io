@@ -3,12 +3,79 @@
     <title>data bar | the coldpress blog</title>
     <link href="https://blog.coldpress.ai/feed.xml" rel="self" />
     <link href="https://blog.coldpress.ai" />
-    <updated>2023-04-19T00:21:59-04:00</updated>
+    <updated>2023-08-10T19:20:00+05:30</updated>
     <author>
         <name>Abhishek Choudhary</name>
     </author>
     <id>https://blog.coldpress.ai</id>
 
+    <entry>
+        <title>Machine Learning as a two hour problem</title>
+        <author>
+            <name>Abhishek Choudhary</name>
+        </author>
+        <link href="https://blog.coldpress.ai/machine-learning-as-a-two-hour-problem.html"/>
+        <id>https://blog.coldpress.ai/machine-learning-as-a-two-hour-problem.html</id>
+        <media:content url="https://blog.coldpress.ai/media/posts/4/Untitled-design.png" medium="image" />
+            <category term="premium-datasets"/>
+            <category term="open-datasets"/>
+            <category term="model-testing"/>
+            <category term="model-selection"/>
+            <category term="ml-basics"/>
+            <category term="machine-learning"/>
+            <category term="data-quality"/>
+            <category term="data-processing"/>
+            <category term="data-engineering"/>
+            <category term="computer-vision"/>
+            <category term="coldpress-ai"/>
+            <category term="artificial-intelligence"/>
+
+        <updated>2023-08-10T19:20:00+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://blog.coldpress.ai/media/posts/4/Untitled-design.png" alt="a robot waiting start on a new challenge" />
+                    Let's get straight to the point: amazing innovation happens when a large number of smart people believe their work can&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://blog.coldpress.ai/media/posts/4/Untitled-design.png" class="type:primaryImage" alt="a robot waiting start on a new challenge" /></p>
+                <p class="dropcap">Let's get straight to the point: amazing innovation happens when a large number of smart people believe their work can move a needle, and then they get to work.</p>
+<h2>What's a "2 hour problem"?</h2>
+<p>Through anecdotes and lived experience, I consider 2 hours to be the goldilocks zone of problem size - it's not minutes and it's not days. Just enough time to dive deep without being overwhelmed, and a duration that encourages immediate. You can start almost immediately at the moment of inspiration and not run out of motivation and decide to "take a break" or "come back to it". Neither of those things are bad, but the flywheel of motivation runs better if it's constantly fed.</p>
+<h2>Is ML there yet?</h2>
+<p>It is not. Not yet. Any production system is more marathon than sprint, but in our nascent ML problem space, everything but the proverbial "Hello World" is a long exercise. Let's try to oversimplify what I'm talking about. What's the most fundamental breakdown of an ML system? What are the steps that you can describe in plain english?</p>
+<figure class="post__image"><img loading="lazy"  src="https://blog.coldpress.ai/media/posts/4/data.png" alt="breaking down ml into three basic parts" width="1600" height="900" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://blog.coldpress.ai/media/posts/4/responsive/data-xs.png 384w ,https://blog.coldpress.ai/media/posts/4/responsive/data-sm.png 600w ,https://blog.coldpress.ai/media/posts/4/responsive/data-md.png 768w ,https://blog.coldpress.ai/media/posts/4/responsive/data-lg.png 1200w ,https://blog.coldpress.ai/media/posts/4/responsive/data-xl.png 1600w"></figure>
+<h3>ML Ops</h3>
+<p>Let's start from the back - ML Ops. This has perhaps been the hottest ML segment prior to the current wave of public interest. Model deployment, monitoring, maintainence, what have you. I could give you an idea of all the various problems that can be solved in this space and who is solving them well, but then I would be robbing you of the pleasure of reading this 50 page / 25 minute report by <a href="https://neptune.ai" target="_blank" rel="noopener">Neptune</a> titled "<a href="https://neptune.ai/blog/mlops-tools-platforms-landscape" target="_blank" rel="noopener">MLOps landscape in 2023</a>" and oof, is that a landscape. Our recommendation, go for one of the extremes: either an end-to-end solution like <a href="https://azure.microsoft.com/en-in/products/machine-learning">AzureML</a>, or go barebones infra-rental with <a href="https://modal.com" target="_blank" style="font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);" rel="noopener">Modal</a>. But the presence of these many options shows that MLOps is the most mature part of the pipeline, and no matter your niche, you will find something that will fit.</p>
+<p>I would argue that ML Ops isn't a part of the "2 hour problem" prototyping that we're talking about. But if MLOps is in your scope, then I think the industry is pretty close to making it a "2 hour problem".</p>
+<h3>Model</h3>
+<p>My favourite part of the problem, for reasons that are immediately obvious -- model training is the closest feeling to the archtype of the "hollywood hacker". No? Just me? Okay.</p>
+<p>Years ago, developing a model from scratch used to be table stakes, just like how writing code on punch cards was table stakes for programming 60 years ago. But today, we're at a place where <code>pytorch</code>gives you a frankly insane number of pre-trained models ready to go -- all you need to do is fine-tune then for your use case (wink-wink).</p>
+<p>Maybe you're a computer vision researcher? <a href="https://pytorch.org/vision/stable/models.html" target="_blank" rel="noopener noreferrer"><code>torchvision</code> has got you covered</a>. Audio? <a href="https://pytorch.org/audio/stable/pipelines.html#module-torchaudio.pipelines" target="_blank" rel="noopener">You got <code>torchaudio</code></a>. NLP? <a href="https://pytorch.org/text/stable/tutorials/t5_demo.html" target="_blank" rel="noopener">Obviously, there's <code>torchtext</code></a>. Don't like pytorch? Wow, maybe you're a <a href="https://www.tensorflow.org/resources/models-datasets" target="_blank" rel="noopener">TensorFlow</a> kind of person? Or <a href="https://huggingface.co/models"></a><a href="https://huggingface.co/models" target="_blank" rel="noopener noreferrer">Huggingface</a>? Or <a href="https://www.kaggle.com/models" target="_blank" rel="noopener">Kaggle</a>? Or <a href="https://github.com/topics/pretrained-models" target="_blank" rel="noopener">Github</a>?</p>
+<p>The point is, there are options. Many options. Maybe <em>too</em> many options. This part of the puzzle has moved squarely into the "2 hour problem" territory (much less, if you know what you're looking for). Of course, we'll keep making advances and improvements -- but where we already are is more than enough for any prototyping and the absence of models is no longer holding anyone back.</p>
+<h3>Data</h3>
+<p>Now comes the hairiest piece of the puzzle -- data. At the end of the day, I think everyone agrees that data makes or breaks your output. If <a href="https://www.semianalysis.com/p/google-we-have-no-moat-and-neither" target="_blank" rel="noopener">Google believes they have no moat, and neither does Open AI</a>, they are talking about how data has the strongest correlation to final quality of result, which implies two distinct but related facts:</p>
+<ol>
+<li>Great data can compensate for a basic model</li>
+<li>A great model can't compensate for poor data</li>
+</ol>
+<p>Whether you're starting afresh with a new problem, fine-tuning from existing pre-trained models, trying to improve your existing inference setup with a fresh injection of data, or trying to counter-act model drift, you're looking for your fix of bits and bytes. Whether or not you're starting your ML system from scratch, you start by scratching your head for the best place to find some data. And somehow, it feels like you always find everything but what you wanted. And our research indicates that in 2023, &gt;50% of data scientists aren't satisfied with the data they have.</p>
+<p>In the absence of good data, people go down one of three roads. They either abandon the project because of a newly discovered data-barrier of entry, or, they choose to change the goals of the project to accomodate for the absence of proper training material, or, they do a primary collection / preparation / annotation of data via a provider like <a href="https://scale.com/" target="_blank" rel="noopener">Scale AI</a> or <a href="https://appen.com/" target="_blank" rel="noopener">Appen</a>. Unfortunately, a lot of projects don't have either the time or the money to wait it out long enough for option #3.</p>
+<p>Now, dream with me for a second. What if there was a secret option #4? What if you could get your hands on data, exactly for your use-case, pre-labelled and ready to go instantly? What if you could pick from the absolute best open datasets available under one roof? What if you could use industry-leading licensed data in a couple of clicks? What if you only had the development or fine-tuning of your model to worry about? You could still choose to use your own data, but it would no longer block you from starting up. In fact, a combination of in-house data and industry-standard data might just take you to new heights that neither would take you to alone.</p>
+<p>That's what we're building here at Coldpress AI. <em>Yay! Time for the plug</em>. We are the largest library of computer vision datasets on the internet. Whether you're building self-driving cars, autonomous farmer bots, or just generally looking around for a way to make yourself the SeeFood app from Silicon Valley -- Coldpress AI is the place to pick up your bits.</p>
+<h2><span style="font-size: inherit;">Why use Coldpress AI?</span></h2>
+<p>Well, size matters. And quality matters. And come to think of it, ethics matter too. Our datasets have not been tested on any animals, farm or otherwise. But also,</p>
+<ol>
+<li>1000+ <a href="https://coldpress.ai/explore?ref=blog-machine-learning-as-a-two-hour-problem" target="_blank" rel="noopener">open datasets</a> across dozens of categories, and new additions everyday</li>
+<li><a href="https://coldpress.ai/premium?ref=blog-machine-learning-as-a-two-hour-problem" target="_blank" rel="noopener">Premium licensed datasets</a> from the world's best producers in minutes</li>
+<li><a href="https://coldpress.ai/butler?ref=blog-machine-learning-as-a-two-hour-problem">Butler - a personalized datasets search service</a>, where we find quality data for you (both free and paid)</li>
+<li>A basket of cookies shipped to your location</li>
+</ol>
+<p>In short, don't let the data-engineering process stop you anymore. <a href="https://coldpress.ai/login/?ref=blog-machine-learning-as-a-two-hour-problem">Sign up for Coldpress AI today</a>!</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Reverse-engineering excellence: working backwards from impressive ML results</title>
         <author>
@@ -33,7 +100,7 @@
             <category term="coldpress-ai"/>
             <category term="artificial-intelligence"/>
 
-        <updated>2023-04-19T00:21:59-04:00</updated>
+        <updated>2023-04-19T09:51:59+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.coldpress.ai/media/posts/3/blog3-final1.png" alt="two robots trying to reverse engineer your ml excellence" />
@@ -138,7 +205,7 @@
             <category term="coldpress-ai"/>
             <category term="artificial-intelligence"/>
 
-        <updated>2023-03-07T10:49:49-05:00</updated>
+        <updated>2023-06-16T09:02:19+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.coldpress.ai/media/posts/2/blog2-final1.png" alt="robots running in a colosseum" />
@@ -210,7 +277,7 @@
             <category term="coldpress-ai"/>
             <category term="announcements"/>
 
-        <updated>2023-03-07T10:49:14-05:00</updated>
+        <updated>2023-06-16T09:02:22+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.coldpress.ai/media/posts/1/blog1-final1.png" alt="person looking at coldpress&#x27;s logo rising in a theater" />

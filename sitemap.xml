@@ -6,7 +6,7 @@
 </url>
 <url>
 <loc>https://blog.coldpress.ai/a-very-serious-guide-for-decoding-model-accuracy-precision-recall-and-f1.html</loc>
-<lastmod>2023-03-07T10:49:49-05:00</lastmod>
+<lastmod>2023-06-16T09:02:19+05:30</lastmod>
 <image:image>
 <image:loc>https://blog.coldpress.ai/media/posts/2/blog2-final1.png</image:loc>
 <image:title><![CDATA[robots running in a colosseum]]></image:title>
@@ -14,15 +14,27 @@
 </url>
 <url>
 <loc>https://blog.coldpress.ai/hello-world-introducing-coldpress-ai.html</loc>
-<lastmod>2023-03-07T10:49:14-05:00</lastmod>
+<lastmod>2023-06-16T09:02:22+05:30</lastmod>
 <image:image>
 <image:loc>https://blog.coldpress.ai/media/posts/1/blog1-final1.png</image:loc>
 <image:title><![CDATA[person looking at coldpress's logo rising in a theater]]></image:title>
 </image:image>
 </url>
 <url>
+<loc>https://blog.coldpress.ai/machine-learning-as-a-two-hour-problem.html</loc>
+<lastmod>2023-08-10T19:16:01+05:30</lastmod>
+<image:image>
+<image:loc>https://blog.coldpress.ai/media/posts/4/Untitled-design.png</image:loc>
+<image:title><![CDATA[a robot waiting start on a new challenge]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://blog.coldpress.ai/media/posts/4/data.png</image:loc>
+<image:title><![CDATA[breaking down ml into three basic parts]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://blog.coldpress.ai/reverse-engineering-excellence-working-backwards-from-impressive-ml-results.html</loc>
-<lastmod>2023-04-19T00:21:59-04:00</lastmod>
+<lastmod>2023-04-19T09:51:59+05:30</lastmod>
 <image:image>
 <image:loc>https://blog.coldpress.ai/media/posts/3/blog3-final1.png</image:loc>
 <image:title><![CDATA[two robots trying to reverse engineer your ml excellence]]></image:title>

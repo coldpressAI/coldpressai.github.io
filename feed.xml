@@ -3,7 +3,7 @@
     <title>data bar | the coldpress blog</title>
     <link href="https://blog.coldpress.ai/feed.xml" rel="self" />
     <link href="https://blog.coldpress.ai" />
-    <updated>2023-08-10T19:20:00+05:30</updated>
+    <updated>2023-08-10T22:50:27+05:30</updated>
     <author>
         <name>Abhishek Choudhary</name>
     </author>
@@ -30,7 +30,7 @@
             <category term="coldpress-ai"/>
             <category term="artificial-intelligence"/>
 
-        <updated>2023-08-10T19:20:00+05:30</updated>
+        <updated>2023-08-10T22:50:27+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://blog.coldpress.ai/media/posts/4/Untitled-design.png" alt="a robot waiting start on a new challenge" />
@@ -42,7 +42,7 @@
                     <p><img src="https://blog.coldpress.ai/media/posts/4/Untitled-design.png" class="type:primaryImage" alt="a robot waiting start on a new challenge" /></p>
                 <p class="dropcap">Let's get straight to the point: amazing innovation happens when a large number of smart people believe their work can move a needle, and then they get to work.</p>
 <h2>What's a "2 hour problem"?</h2>
-<p>Through anecdotes and lived experience, I consider 2 hours to be the goldilocks zone of problem size - it's not minutes and it's not days. Just enough time to dive deep without being overwhelmed, and a duration that encourages immediate. You can start almost immediately at the moment of inspiration and not run out of motivation and decide to "take a break" or "come back to it". Neither of those things are bad, but the flywheel of motivation runs better if it's constantly fed.</p>
+<p>Through anecdotes and lived experience, I consider 2 hours to be the goldilocks zone of problem size - it's not minutes and it's not days. Just enough time to dive deep without being overwhelmed, and a duration that encourages immediate action. You can start almost immediately at the moment of inspiration and not run out of motivation and decide to "take a break" or "come back to it". Neither of those things are bad, but the flywheel of motivation runs better if it's constantly fed.</p>
 <h2>Is ML there yet?</h2>
 <p>It is not. Not yet. Any production system is more marathon than sprint, but in our nascent ML problem space, everything but the proverbial "Hello World" is a long exercise. Let's try to oversimplify what I'm talking about. What's the most fundamental breakdown of an ML system? What are the steps that you can describe in plain english?</p>
 <figure class="post__image"><img loading="lazy"  src="https://blog.coldpress.ai/media/posts/4/data.png" alt="breaking down ml into three basic parts" width="1600" height="900" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://blog.coldpress.ai/media/posts/4/responsive/data-xs.png 384w ,https://blog.coldpress.ai/media/posts/4/responsive/data-sm.png 600w ,https://blog.coldpress.ai/media/posts/4/responsive/data-md.png 768w ,https://blog.coldpress.ai/media/posts/4/responsive/data-lg.png 1200w ,https://blog.coldpress.ai/media/posts/4/responsive/data-xl.png 1600w"></figure>

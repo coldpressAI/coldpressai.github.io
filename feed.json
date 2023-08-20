@@ -38,6 +38,26 @@
             "date_modified": "2023-08-10T22:50:27+05:30"
         },
         {
+            "id": "https://blog.coldpress.ai/coldpress-x-tailwind.html",
+            "url": "https://blog.coldpress.ai/coldpress-x-tailwind.html",
+            "title": "coldpress x tailwind",
+            "summary": "Coldpress AI and Tailwind Imaging have teamed up to bring you specialized aerial imagery at the click of a button,&hellip;",
+            "content_html": "<div class=\"flex flex-grow flex-col gap-3\">\n<div class=\"min-h-[20px] flex flex-col items-start gap-4 whitespace-pre-wrap\">\n<div class=\"markdown prose w-full break-words dark:prose-invert light\">\n<div class=\"bubble-element Image\">\n<div> </div>\n</div>\n<div class=\"bubble-element Group bubble-r-container flex row\">\n<div class=\"bubble-element Group bubble-r-container flex column\">\n<div class=\"bubble-element Text\">\n<div align=\"left\"><span style=\"color: #000080;\"><a href=\"https://coldpress.ai/\" target=\"_blank\" rel=\"noopener\">Coldpress AI</a></span> and <a href=\"https://www.tailwindimaging.com/\" target=\"_blank\" rel=\"noopener\"><span style=\"color: #000080;\">Tailwind Imaging</span></a> have teamed up to bring you specialized aerial imagery at the click of a button, all neatly packaged in an easy-to-search, easy-to-download data marketplace. With Coldpress AI's prowess in curating, augmenting, and providing seamless access to diverse datasets, combined with Tailwind Imaging's commitment to delivering budget-friendly, high-resolution imagery for various applications, a smorgasbord of GIS imagery is now within your grasp.</div>\n<div align=\"left\">Here's what this partnership means for you: Over the next few weeks, this collaboration will allow you easy API access to aerial visuals from across the greater US and Canada terrains, all tucked neatly within <a href=\"https://coldpress.ai/premium?ref=header\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"color: #000080;\">Coldpress AI’s premium dataset library</span></a>. This catalogue of aerial imagery will be a breeze to navigate, instantly accessible, and boasting resolutions up to 5 cm GSD. It's like having your very own cartographic concierge.</div>\n<br>\n<div align=\"left\">The applications are boundless. Building an agriculture model? Use aerial imagery for crop health and irrigation optimization. Tackling urban planning? Analyze land use patterns and resource allocation. Whether you're working on environmental monitoring, insurance, renewable energy, emergency response, wildlife conservation, archaeology, real estate, or asset management, aerial imagery can be the key to unlocking new AI development possibilities across a variety of industries. </div>\n<br>\n<div align=\"left\"><span style=\"color: #000080;\"><a href=\"https://coldpress.ai/premium?ref=header\" target=\"_blank\" rel=\"noopener\">Sign up for early bird access</a></span> to Coldpress AI’s premium dataset library as it goes live with Tailwind Imaging’s aerial datasets and be the first to experience the power of this partnership.</div>\n<br>\n<div align=\"left\">Coldpress AI's CEO, Abhishek Choudhary, emphasizes that the collaboration between Coldpress AI and Tailwind Imaging showcases our belief that partnerships between companies and technology create a win-win situation for everyone involved: “Making high-quality datasets easily accessible to our users is central to the vision of Coldpress AI, and we're glad that we share those values with Tailwind. This partnership's main aim is to make the lives of data teams better, and we're confident that we will deliver on that promise.”</div>\n<br>\n<div align=\"left\">We're thrilled to share a statement from Tailwind Imaging's CEO, Eric Laughlin, who shares our enthusiasm for the doors this partnership opens: “Collaborating with Coldpress AI aligns perfectly with our mission to make <span style=\"color: #000080;\"><a href=\"https://www.tailwindimaging.com/\" target=\"_blank\" rel=\"noopener\">aerial imagery</a></span> accessible to all. This partnership will amplify our reach, enabling more AI developers to leverage our high-quality datasets for groundbreaking solutions.”</div>\n<br>For questions, mail us at <a href=\"mailto:press@coldpress.ai\" target=\"_blank\" rel=\"noopener\"><u><strong>press@coldpress.ai</strong></u></a></div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+            "image": "https://blog.coldpress.ai/media/posts/5/blogx-Tailwind.png",
+            "author": {
+                "name": "Abhishek Choudhary"
+            },
+            "tags": [
+                   "premium-datasets",
+                   "gis",
+                   "data-quality",
+                   "coldpress-ai",
+                   "aerial-imagery"
+            ],
+            "date_published": "2023-06-30T19:00:00+05:30",
+            "date_modified": "2023-08-20T16:20:51+05:30"
+        },
+        {
             "id": "https://blog.coldpress.ai/reverse-engineering-excellence-working-backwards-from-impressive-ml-results.html",
             "url": "https://blog.coldpress.ai/reverse-engineering-excellence-working-backwards-from-impressive-ml-results.html",
             "title": "Reverse-engineering excellence: working backwards from impressive ML results",

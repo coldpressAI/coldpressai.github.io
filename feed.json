@@ -49,13 +49,14 @@
             },
             "tags": [
                    "premium-datasets",
+                   "partnerships",
                    "gis",
                    "data-quality",
                    "coldpress-ai",
                    "aerial-imagery"
             ],
             "date_published": "2023-06-30T19:00:00+05:30",
-            "date_modified": "2023-08-20T16:24:57+05:30"
+            "date_modified": "2023-08-20T16:31:16+05:30"
         },
         {
             "id": "https://blog.coldpress.ai/reverse-engineering-excellence-working-backwards-from-impressive-ml-results.html",
